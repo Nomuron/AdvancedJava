@@ -1,0 +1,15 @@
+my:
+  custom:
+    property: Hello from application yml
+    bean: false
+
+---
+spring:
+  config:
+    activate:
+      on-profile: jaz
+my:
+  custom:
+    property: Hello from application jaz yml
+    random: Hello from yml random
+    bean: true
